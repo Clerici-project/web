@@ -1,0 +1,5 @@
+ietemplates/
+_site/*
+.idea/
+*.swp
+.jekyll-cache/
