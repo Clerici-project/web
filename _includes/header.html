@@ -8,7 +8,7 @@
                       <label for="drop1">{% t navigation.getstarted %}<div class="arrow-down"></div></label>
                       <input class="burger-checkdropdown" id="drop1" type="checkbox" tabindex="0">
                       <div class="dropdown-content">
-                          <a href="{{ site.baseurl }}/get-started/what-is-monero/">{% t navigation.whatis %}</a>
+                          <a href="{{ site.baseurl }}/get-started/what-is-clerici/">{% t navigation.whatis %}</a>
                           <a href="{{ site.baseurl }}/get-started/accepting/">{% t navigation.accepting %}</a>
                           <a href="{{ site.baseurl }}/get-started/contributing/">{% t navigation.contributing %}</a>
                           <a href="{{ site.baseurl }}/get-started/mining/">{% t navigation.mining %}</a>
@@ -58,7 +58,7 @@
                  <div class="row">
                      <div class="col-xs-12">
                          <div class="text-center nav-item mob">
-                            <a href="https://ccs.getmonero.org">Community Crowdfunding</a> 
+                            <a href="https://ccs.getmonero.org">Community Crowdfunding</a>
                          </div>
                      </div>
                  </div>
@@ -75,25 +75,25 @@
                             <a href="https://translate.getmonero.org">Translate</a>
                          </div>
                      </div>
-                 </div>            
+                 </div>
              </div>
-          
+
         </div>
        </div>
-       
+
         <div class="desktop-nav">
             <nav class="container">
             <div class="topnav">
               <div class="row middle-xs">
                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                     <a href="{% if site.lang == 'en' %}
-                    
+
                     {{ site.baseurl_root }}/
-                    
+
                     {% else %}
-                    
+
                     {{ site.baseurl_root }}/{{site.lang}}
-                    
+
                     {% endif %}"><img src="/img/monero-logo.png" width="500" height="135" alt="Monero Logo" class="monero-logo"></a>
                   </div>
                   <div class="col-lg-8 col-md-8 col-sm-8 topnav-list end-xs">
@@ -176,13 +176,13 @@
             <div class="row center-xs middle-xs">
                 <div class="col-xs-6">
                     <a href="{% if site.lang == 'en' %}
-                    
+
                     {{ site.baseurl_root }}/
-                    
+
                     {% else %}
-                    
+
                     {{ site.baseurl_root }}/{{site.lang}}
-                    
+
                     {% endif %}"><img src="/img/monero-logo.png" width="500" height="135" alt="Monero Logo" class="monero-logo"></a>
                 </div>
                 <div class="dropdown col-xs-6 text-center mob-language-change">
@@ -201,5 +201,5 @@
                               {% endfor %}
                             </div>
                           </div>
-            </div>     
-        </div>    
+            </div>
+        </div>
